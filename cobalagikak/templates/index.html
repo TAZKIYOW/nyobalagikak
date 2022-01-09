@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html >
+
+	<head>
+<title>Samsung Phone</title>
+	<center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	<body div style="background-image: url('hero.jpg');">
+	
+<a><span>S A M S U N G</a>
+
+			<h2 style="border;">
+				<table border="0" style="center">
+	 <div class="login">
+		<h1>Check Your Budget Here!</h1>
+	<font face="">
+	     <!-- Main Input For Receiving Query to our ML -->
+ <form action="{{ url_for('predict')}}"method="post">
+	    	<p>Masukkan internal storage yang kamu inginkan<br><input type="text" name="X" placeholder="Choose : 128/256/512 GB" required="required" />
+	    	        <button type="submit" class="btn btn-primary btn-block btn-large" onclick="return confirm('Are you sure?')" >check</button></p>
+	    </form>
+	   {{ prediction_text }}
+	</center>
+	 </div>
+	
+
+	</body>
+		 
+	</head>
+	</html>
